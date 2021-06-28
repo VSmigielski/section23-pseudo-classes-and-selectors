@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p:first-child {color: green;}
+        p:last-child {color: blue;}
+        p:nth-child(3) {color: red;}
+        p:nth-last-child(3) {color: yellow}
+        /* Nothing selected since there is more than one child per div */
+        p:only-child {color: purple;}
+    </style>
+    <title>Child Pseudo Classes</title>
+</head>
+<body>
+    <div>
+        <p>First child, first div</p>
+        <p>Second child, first div</p>
+        <p>Third child, first div</p>
+        <p>Fourth child, first div</p>
+    </div>
+    <div>
+        <p>First child, second div</p>
+        <p>Second child, second div</p>
+        <p>Third child, second div</p>
+        <p>Fourth child, second div</p>
+    </div>
+    <div>
+        <p>First child, third div</p>
+        <p>Second child, third div</p>
+        <p>Third child, third div</p>
+        <p>Fourth child, third div</p>
+    </div>
+</body>
+</html>

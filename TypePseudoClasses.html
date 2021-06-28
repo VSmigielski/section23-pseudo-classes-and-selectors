@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p:first-of-type {color: blue;}
+        p:last-of-type {color: purple;}
+        p:nth-of-type(2) {color: pink;}
+        p:nth-last-of-type(2) {color: lightgreen;}
+        /* Selects nothing since they are all children of the same element */
+        p:only-of-type {color: orangered;}
+    </style>
+    <title>Type Pseudo Classes</title>
+</head>
+<body>
+    <p>Example text 1</p>
+    <p>Example text 2</p>
+    <p>Example text 3</p>
+    <p>Example text 4</p>
+</body>
+</html>

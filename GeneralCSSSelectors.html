@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Selects all elements on page (or parent/child elements) */
+        *{color: blue;}
+        /* selects two items based on tag, class, or id  */
+        p, div {color: red;}
+        /* Selects the second element within the first element */
+        div p {color: purple;}
+        [title] {color: pink;}
+        [title=ex2] {color: orangered;}
+    </style>
+    <title>General CSS Selectors</title>
+</head>
+<body>
+    <p title="ex1">Example Text 1</p>
+    <p title="ex2">Example Text 2</p>
+    <p title="ex3">Example Text 3</p>
+    <div>Example Text 4 <p>Example Text 5</p> </div>
+</body>
+</html>
